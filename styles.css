@@ -593,9 +593,9 @@ body {
 /* ==================== SKILLS SECTION ==================== */
 .skills-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
-    max-width: 1000px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -616,8 +616,13 @@ body {
 }
 
 .skill-icon {
-    font-size: 3rem;
+    color: var(--accent-primary);
     margin-bottom: 1.5rem;
+}
+
+.skill-icon svg {
+    display: block;
+    margin: 0 auto;
 }
 
 .skill-item h3 {
